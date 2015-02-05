@@ -1,0 +1,254 @@
+* {
+	font-family : "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+	background : #72bc84;
+	height : 100%;
+	width : 100%;
+	padding : 50px 0px;
+	background : url('../../images/bg-3.jpg') top left fixed;
+}
+
+h2 {
+	color : #72bc84;
+	font-size : 46px;
+	font-weight : 100;
+	letter-spacing: 10px;
+	text-align : center;
+	margin  : 0px;
+	margin-bottom : 50px;
+}
+
+/**
+*** Corporate
+***/
+
+div.section.corporate {
+	background : white;
+	padding : 60px 0px;
+}
+
+div.section.corporate h1 {
+	margin: 0px;
+	color : #72bc84;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size : 72px;
+}
+
+div.section.corporate sub {
+	font-size : 36px;
+	letter-spacing: 0px;
+}
+
+/**
+*** Intro
+***/
+div.section.intro {
+	padding : 150px 0px;
+	background : url('../../images/bg.jpg') top left repeat;
+
+}
+
+div.section.intro .container, 
+div.section.intro .container .col-sm-24 {
+	padding : 0px;
+}
+
+div.section.intro p.quote {
+	font-size : 46px;
+	text-align : center;
+	color : white;
+	border : none;
+	letter-spacing: 2px;
+	line-height: normal;
+}
+
+div.section.intro p.quote.line-1 {
+	text-align: left;
+}
+
+div.section.intro p.quote.line-2 {
+	text-align: right;
+}
+
+div.section.intro p.quote span {
+	white-space: pre;
+}
+
+div.section.intro p.quote span.quote {
+	color : white;
+	line-height : 30px;
+	font-size : 70px;
+	font-weight : bold;
+	display : inline-block;
+}
+
+div.section.intro p.author {
+	text-align: right;
+	font-size: 16px;
+	font-style: italic;
+	color : white;
+	padding-right : 15px;
+	font-weight: normal;
+}
+
+
+/**
+*** Product
+***/
+div.section.product {
+	background : white;
+	padding : 50px 0px 150px 0px;
+}
+
+div.section.product h2 {
+	margin-top : 100px;
+	margin-bottom : 100px;
+}
+
+div.section.product .container-fluid,
+div.section.product .picture-cell {
+	padding : 0px;
+}
+
+div.section.product .picture-cell img {
+	max-width : 100%;
+}
+
+
+div.section.product .desc-cell img.app-ico {
+	width : 100px;
+	margin : 5px 15px 10px 0px;
+	float : left;
+}
+
+div.section.product .desc-cell p {
+	text-align : center;
+	max-width : 500px;
+}
+
+div.section.product .desc-cell strong {
+	font-weight : 400;
+}
+
+div.section.product .website {
+	margin : 50px 0px;
+	text-align : center;
+}
+
+div.section.product .website a {
+	color : #72bc84;
+}
+
+div.section.product .social {
+	text-align: center;
+}
+
+div.section.product .social a {
+	display: inline-block;
+}
+
+div.section.product .social a img {
+	width : 32px;
+	margin : 20px 5px;
+}
+
+
+/**
+*** Team
+***/
+div.section.founders {
+	background : white;
+	padding-bottom : 50px;
+}
+
+div.section.founders .header {
+	background : #72bc84;
+	padding : 0px;
+}
+
+div.section.founders h2 {
+	padding : 50px 0px 50px 0px;
+	margin : 0px;
+	color : white;
+}
+
+div.section.founders h3 {
+	font-weight : 100;
+	font-size : 26px;
+	color : white;
+	text-align : center;
+	letter-spacing: 1px;
+	margin : 0px 0px 10px 0px;
+}
+
+div.section.founders h4 {
+	font-size : 14px;
+	letter-spacing: 1px;
+	color : white;
+	text-align : center;
+	font-weight: lighter;
+	margin : 10px 0px 30px 0px;
+}
+
+div.section.founders .body-part h3 {
+	color : black;
+}
+
+div.section.founders .body-part h4 {
+	color: black;
+}
+
+div.section.founders div.profile,
+div.section.founders div.profile .cell {
+	padding : 0px;
+}
+
+div.section.founders img.profile {
+	width : 120px;
+	max-width : 100%;
+	display : block;
+	margin : 0px auto 15px auto;
+}
+
+div.section.founders .body-part img.profile {
+	margin-top : 50px;
+}
+
+div.section.founders p {
+	text-align: justify;
+	margin : 0px;
+}
+
+div.section.founders .body-part p {
+	margin-bottom : 50px;
+}
+
+div.section.founders .social {
+	text-align: center;
+}
+
+div.section.founders .social a {
+	display: inline-block;
+	margin : 15px 5px;
+}
+
+div.section.founders .social a img {
+	width : 32px;
+	
+}
+
+
+p {
+	line-height: 27px;
+	font-size : 18px;
+	font-weight : 300;
+	color : #758791;
+	margin : 10px auto;
+}
+
+.team  img.avatar {
+	max-width : 100%;
+}
